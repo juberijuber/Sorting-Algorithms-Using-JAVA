@@ -14,10 +14,11 @@ class Main {
 
 	}
 	public static void selection_sort(int n,int[] arr) {
+		int min=0;
 		
 
 		for(int i=0; i<n; i++) {
-			int min=i;
+			
 
 			for(int j=i+1; j<n; j++) {
 				if(arr[min]>arr[j]) {
